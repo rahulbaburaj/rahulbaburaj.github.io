@@ -22,9 +22,8 @@ author: Rahul Baburajan
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - deeplearning.ai courses: "https://www.deeplearning.ai/short-courses/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -51,7 +50,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "rahuledachali@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: rahulbaburaj
   medium: rahulb_10814
   linkedin: rahul-edachali
