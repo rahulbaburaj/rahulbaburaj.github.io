@@ -1,18 +1,21 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Cleaning text data with regex
+subtitle: Why regex is a superhero in the LLM world
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
-tags: [books, test]
-author: Sharon Smith and Barry Simpson
+thumbnail-img: /assets/img/thumbnail_regex.jpg
+share-img: /assets/img/thumbnail_regex.jpg
+tags: [regex, nlp]
+author: Rahul Baburajan
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Regular expressions (regex) are indispensable in the realm of data cleaning and preparation, particularly for Language Learning Models (LLMs) in natural language processing. The majority of data available, especially from extensive sources like Project Gutenberg, is often unstructured and cluttered with extraneous information. Regex excels in such environments, providing a robust and flexible method to sift through and clean large datasets. For example, when handling texts from Project Gutenberg's vast collection of over 60,000 free ebooks, regex can be deftly employed to identify and eliminate irrelevant content such as headers, footnotes, and annotations. This capability to precisely target and remove non-essential elements is crucial. It ensures that the data feeding into LLMs is not only clean but also relevant and conducive to effective model training. The impact of regex in enhancing the quality of training data cannot be overstated, as it directly influences the accuracy and reliability of the LLMs developed from such data.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+Moreover, regex brings a level of uniformity and standardization to the preprocessing of text data that is invaluable in the LLM context. Texts from diverse sources like Project Gutenberg often come in various formats and styles, making uniform processing a significant challenge. Regex addresses this by allowing developers to create patterns that standardize and homogenize the data, regardless of its original format. This uniformity is essential for LLMs, as it facilitates more efficient learning and understanding of linguistic patterns. By enabling the consistent and structured preparation of training data, regex plays a pivotal role in the development of robust and effective language models, capable of understanding and generating human-like text. The utility of regex in this aspect of data preparation underscores its importance in the field of NLP and the broader AI landscape.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
-
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+<div align="left">
+  Explore more insights and detailed discussions in my Medium article. Visit:
+  <a href="https://medium.com/dev-genius/preprocessing-project-gutenberg-book-for-language-modeling-lm-using-gpt-neo-7425eed5c392" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="medium logo" />
+  </a>
+</div>
